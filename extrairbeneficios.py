@@ -5,8 +5,8 @@ import stat
 import re
 
 # ---------------- CONFIGURAÇÕES ----------------
-caminho_zips = r"C:\Users\melissa.lemes\OneDrive - HITSS DO BRASIL SERVIÇOS TECNOLOGICOS LTDA\Área de Trabalho\umasopasta\beneficios\arquivoszip"
-pasta_destino = r"C:\Users\melissa.lemes\OneDrive - HITSS DO BRASIL SERVIÇOS TECNOLOGICOS LTDA\Área de Trabalho\umasopasta\beneficios\setembro25"
+caminho_zips = r"C:\Área de Trabalho\umasopasta\beneficios\arquivoszip"
+pasta_destino = r"C:\Área de Trabalho\umasopasta\beneficios\setembro25"
 
 os.makedirs(pasta_destino, exist_ok=True)
 MAX_PATH = 200  # limite total para o caminho no Windows

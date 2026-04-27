@@ -2,8 +2,8 @@ import os
 import shutil
 
 # Caminhos principais
-caminho_beneficios = r"C:\Users\melissa.lemes\OneDrive - HITSS DO BRASIL SERVIÇOS TECNOLOGICOS LTDA\Área de Trabalho\umasopasta\beneficios\setembro25"
-caminho_funcionarios = r"C:\Users\melissa.lemes\OneDrive - HITSS DO BRASIL SERVIÇOS TECNOLOGICOS LTDA\Área de Trabalho\umasopasta\funcionarios\setembro25"
+caminho_beneficios = r"C:Área de Trabalho\umasopasta\beneficios\setembro25"
+caminho_funcionarios = r"C:Área de Trabalho\umasopasta\funcionarios\setembro25"
 
 # Listar pastas de benefícios (CPFs)
 pastas_beneficios = [p for p in os.listdir(caminho_beneficios) if os.path.isdir(os.path.join(caminho_beneficios, p))]

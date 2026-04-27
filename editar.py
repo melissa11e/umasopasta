@@ -2,7 +2,7 @@ import os
 import re
 
 # Caminho da pasta principal
-caminho = r"C:\Users\melissa.lemes\OneDrive - HITSS DO BRASIL SERVIÇOS TECNOLOGICOS LTDA\Área de Trabalho\umasopasta\beneficios\setembro25"
+caminho = r"C:\Área de Trabalho\umasopasta\beneficios\setembro25"
 # Regex pra detectar CPF (com ou sem pontuação)
 cpf_regex = re.compile(r"\b\d{3}\.?\d{3}\.?\d{3}-?\d{2}\b")
 

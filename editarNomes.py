@@ -4,9 +4,9 @@ import pandas as pd
 from datetime import datetime
 
 # --- Caminhos ---
-colab = r"C:\Users\melissa.lemes\OneDrive - HITSS DO BRASIL SERVIÇOS TECNOLOGICOS LTDA\Área de Trabalho\umasopasta\funcionarios\outubro25"
-caminhoExcel = r"C:\Users\melissa.lemes\OneDrive - HITSS DO BRASIL SERVIÇOS TECNOLOGICOS LTDA\Área de Trabalho\umasopasta\coletarNomesPastas25.xlsx"
-caminho_planilhas = r"C:\Users\melissa.lemes\OneDrive - HITSS DO BRASIL SERVIÇOS TECNOLOGICOS LTDA\Área de Trabalho\umasopasta\planilhasIDCPF"
+colab = r"C:\Área de Trabalho\umasopasta\funcionarios\outubro25"
+caminhoExcel = r"C:\Área de Trabalho\umasopasta\coletarNomesPastas25.xlsx"
+caminho_planilhas = r"C:\Área de Trabalho\umasopasta\planilhasIDCPF"
 
 # =============================================================
 # ETAPA 1 + 2 - Coleta nomes, junta com planilhas e atualiza CPFs
